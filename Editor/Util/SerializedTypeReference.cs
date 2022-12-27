@@ -8,7 +8,7 @@
     /// <summary>
     /// A class that gives access to serialized properties inside <see cref="TypeReference"/>.
     /// </summary>
-    internal readonly struct SerializedTypeReference
+    public readonly struct SerializedTypeReference
     {
         public readonly SerializedProperty TypeNameProperty;
         private readonly SerializedObject _parentObject;
